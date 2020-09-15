@@ -1,5 +1,7 @@
 # \<pretty-json>
 
+![Example](https://github.com/mauriciogc/pretty-json/blob/master/asset/example.png)
+
 ## Installation
 
 ```bash
