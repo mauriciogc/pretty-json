@@ -6,6 +6,10 @@
 	"module": "index.js",
 	"author": "https://medium.com/@mauriciogc",
 	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:mauriciogc/pretty-json.git"
+	},
 	"scripts": {
 		"start": "es-dev-server --app-index demo/index.html --node-resolve --open --watch",
 		"test": "karma start --coverage --watch",
