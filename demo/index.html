@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Demo</title>
+		<style>
+			html,
+			body {
+				background-color: #e4e3e3;
+				padding: 10px;
+			}
+			#demo {
+				display: flex;
+				justify-content: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="demo">
+			<button id="withQuotes">JSON Quotes [toggle]</button>
+			<button id="allCollapsable">JSON Collapsable [toggle]</button>
+		</div>
+		<pretty-json></pretty-json>
+	</body>
+	<script type="module" src="./index.js"></script>
+</html>
